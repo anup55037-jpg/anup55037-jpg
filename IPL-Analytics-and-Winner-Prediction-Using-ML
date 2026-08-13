@@ -1,1 +1,160 @@
+# 🏏 IPL Analytics and Winner Prediction Using ML
 
+## 📌 Project Overview
+
+**IPL Analytics and Winner Prediction Using ML** is a Machine Learning-based project developed to analyze IPL match data and predict the winning team based on important match-related factors.
+
+The project combines **Data Analytics, Machine Learning, and a Flask-based web application** to provide an interactive way to explore IPL data and generate winner predictions.
+
+---
+
+## 🎯 Objectives
+
+* Analyze historical IPL match data.
+* Understand important factors affecting match outcomes.
+* Build Machine Learning models for winner prediction.
+* Compare different Machine Learning algorithms.
+* Develop a user-friendly prediction website.
+* Present IPL data through interactive dashboards.
+
+---
+
+## 📊 Datasets
+
+The project uses two IPL datasets:
+
+* **matches_clean_final.csv** — Match-level information such as season, teams, city, toss winner, toss decision, and match winner.
+* **deliveries_clean_final.csv** — Ball-by-ball delivery information from IPL matches.
+
+**Dataset Source:** Kaggle
+
+---
+
+## 🤖 Machine Learning
+
+The following algorithms were explored:
+
+* Decision Tree
+* Random Forest
+* Gradient Boosting
+
+### Final Model
+
+**Gradient Boosting Classifier** was selected as the final prediction model.
+
+The model uses features such as:
+
+* Season
+* City
+* Team 1
+* Team 2
+* Toss Winner
+* Toss Decision
+
+The trained model is saved as:
+
+`ipl_model.pkl`
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology   | Purpose                              |
+| ------------ | ------------------------------------ |
+| Python       | Data processing and Machine Learning |
+| Pandas       | Data analysis                        |
+| NumPy        | Numerical operations                 |
+| Scikit-learn | Machine Learning                     |
+| Flask        | Web application backend              |
+| HTML         | Web page structure                   |
+| CSS          | Website design                       |
+| JavaScript   | Frontend interaction                 |
+| Power BI     | Data visualization                   |
+| Google Colab | Model development                    |
+| VS Code      | Project development                  |
+| Excel        | Data handling                        |
+
+---
+
+## 🌐 Web Application
+
+The project includes an interactive Flask web application.
+
+### 🏠 Home Page
+
+Provides an overview of the project and its purpose.
+
+### 🔮 Prediction Page
+
+Users can select:
+
+* Season
+* City
+* Team 1
+* Team 2
+* Toss Winner
+* Toss Decision
+
+The application then predicts the expected winning team using the trained Machine Learning model.
+
+---
+
+## 📈 Analytics Dashboard
+
+Power BI was used to create interactive IPL dashboards for exploring match data, team performance, and other useful statistics.
+
+---
+
+## 📁 Project Structure
+
+```text
+IPL-Analytics-and-Winner-Prediction-Using-ML/
+│
+├── backend/
+│   └── app.py
+│
+├── data/
+│   ├── matches_clean_final.csv
+│   └── deliveries_clean_final.csv
+│
+├── frontend/
+│   ├── images/
+│   ├── index.html
+│   ├── predict.html
+│   ├── script.js
+│   └── style.css
+│
+├── model/
+│   └── ipl_model.pkl
+│
+└── README.md
+```
+
+---
+
+## ✨ Key Features
+
+* 📊 IPL data analysis
+* 🤖 Machine Learning-based winner prediction
+* 🏏 Team selection
+* 🪙 Toss winner selection
+* 🌐 Interactive Flask web application
+* 📈 Power BI dashboards
+* 🎨 Dark professional UI
+* ⚡ Real-time prediction through the web interface
+
+---
+
+## 👨‍💻 Developed By
+
+**Anu Prajapati**
+
+Diploma in Computer Science and Engineering
+
+---
+
+## 📌 Project Status
+
+**Completed ✅**
+
+The project includes data analysis, Machine Learning model development, Power BI visualization, and a working Flask-based prediction application.
